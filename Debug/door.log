@@ -1,0 +1,16 @@
+﻿  mode.c
+E:\git\door\mode.c(66,31): warning C4133: “函数”: 从“SOCKADDR_IN *”到“const sockaddr *”的类型不兼容
+E:\git\door\mode.c(92,30): warning C4047: “函数”:“LPSTR”与“char *[255]”的间接级别不同
+E:\git\door\mode.c(92,23): warning C4024: “GetSystemDirectoryA”: 形参和实参 1 的类型不同
+E:\git\door\mode.c(93,18): warning C4047: “函数”:“char *”与“char *[255]”的间接级别不同
+E:\git\door\mode.c(93,11): warning C4024: “strncat”: 形参和实参 1 的类型不同
+E:\git\door\mode.c(94,43): warning C4047: “函数”:“int”与“void *”的间接级别不同
+E:\git\door\mode.c(94,39): warning C4024: “recv”: 形参和实参 4 的类型不同
+E:\git\door\mode.c(98,18): warning C4047: “函数”:“char *”与“char *[255]”的间接级别不同
+E:\git\door\mode.c(98,11): warning C4024: “strncat”: 形参和实参 1 的类型不同
+E:\git\door\mode.c(99,31): warning C4047: “函数”:“LPSTR”与“char *[255]”的间接级别不同
+E:\git\door\mode.c(99,24): warning C4024: “CreateProcessA”: 形参和实参 2 的类型不同
+E:\git\door\mode.c(99,55): warning C4047: “函数”:“DWORD”与“void *”的间接级别不同
+E:\git\door\mode.c(99,51): warning C4024: “CreateProcessA”: 形参和实参 6 的类型不同
+E:\git\door\mode.c(29): warning C4715: “注册表写入”: 不是所有的控件路径都返回值
+  door.vcxproj -> E:\git\door\Debug\door.exe
