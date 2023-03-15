@@ -1,24 +1,18 @@
 ## 注意：本项目用于实验，违法活动与本人无关
 
-使用步骤：
+**使用步骤：**
 
-1. 启动netcat监听![2](E:\github\door\images\2.PNG)
+1. 启动netcat监听
+
+   https://github.com/wuyuhao111/door/tree/main/images/1.jpg
 
 2. 启动木马
 
-   ![3](E:\github\door\images\3.PNG)
-
 3. 执行命令
-
-![4](E:\github\door\images\4.PNG)
 
 **功能说明：**
 
   使用TCP协议的管道通信，能够实现命令回显，注册表写入，但是在提权中出现了一点小问题，使用代码不能成功的提升至管理员权限区打开注册表写入，所以做了一点小改动，使用了配置文件，将生成的EXE文件强制使用管理员区运行，而接收端使用netcat即可，也可以自己实现TCP协议的服务端。
-
-**杀毒测试：**
-
-![1](E:\github\door\images\1.PNG)
 
 **项目缺陷：**
 
